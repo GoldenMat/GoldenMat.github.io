@@ -1,0 +1,70 @@
+body {
+	font-family: "Verdana", sans-serif;
+}
+
+/*
+div {
+	border: 1px solid black;
+	margin: 3px;
+}
+*/
+
+.cascata {
+	background-color: cyan;
+}
+
+.banner-container {
+	border: 1px solid black;
+	border-radius: 5em 5em 0 0;
+	overflow: hidden;
+}
+
+.container {
+	display: flex;
+	flex-wrap:wrap;
+	max-width: 1000px;
+}
+
+.picker-bar {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	width: 100%;
+	font-size: 2em;
+	display: grid;
+}
+
+.picker-choice {
+	grid-row: 1 / 2;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.picker {
+	border: 1px solid black;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 1em;
+	padding: 0.3em 2em;
+	margin: 0.5em;
+}
+
+.description {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	width: 100%;
+	font-size: 1em;
+	text-align: center;
+	vertical-align: middle;
+	padding: 1em;
+}
+
+.content {
+	border: 1px solid black;
+	width: 100%;
+	font-size: 1em;
+	text-align: center;
+	vertical-align: middle;
+	padding: 1em;
+}
