@@ -9,8 +9,38 @@ body {
   }
 }
 
+.canyoning {
+	background-color: blue;
+	color: white;
+}
+
 .cascata {
 	background-color: cyan;
+}
+
+.escursionismo {
+	background-color: moccasin;
+}
+
+.falesia {
+	background-color: lightcoral;
+}
+
+.ferrata {
+	background-color: darkslategrey;
+	color: white;
+}
+
+.ghiaccio {
+	background-color: mediumaquamarine;
+}
+
+.roccia {
+	background-color: orange;
+}
+
+.sci {
+	background-color: lightblue;
 }
 
 .banner-container {
@@ -76,6 +106,7 @@ body {
 	text-align: center;
 	vertical-align: middle;
 	padding: 1em 1em 2em 1em;
+	overflow: hidden;
 }
 
 .content {
