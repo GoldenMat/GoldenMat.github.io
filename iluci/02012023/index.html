@@ -1,153 +1,240 @@
 <head>
 	<link rel="stylesheet" href="../style/style.css">
+	<script type="text/javascript" src="../script/script.js"></script>
 </head>
 
 <body>
 	<div class="container">
+	
 		<div class="banner-container"><img src="../assets/banner/cascata.png"></div>
-		<div class="description"><h2>Vazzeda Centrale</h2></div>
-		<div class="picker-bar">
-			<div class="picker-choice"><div class="picker cascata">Relazione</div></div>
-			<div class="picker-choice"><div class="picker cascata">Racconti</div></div>
+		
+		<!-- Descrizione -->
+		<div class="description">
+			<h2>Vazzeda Centrale</h2>
+			
+			<a href="schizzo.png" target="_blank" rel="noopener noreferrer">
+				<img class="schizzo" src="schizzo.png">
+			</a>
+			<br><p class="caption">(clicca sull'immagine per ingrandirla)</p>
+			
+			<p>La cascata di Vazzeda Centrale è una delle 3 cascate parallele che si trovano nei pressi dell'alpe Vazzeda Inferiore, sotto il piccolo ghiacciaio di Vazzeda. Sono ben visibili da Pian del Lupo, bellissima località posta al termine di Chiareggio, e tra le 3 cascate la Centrale è quella più semplice posta in uno stretto e sinuoso canale appoggiato con brevissimi tratti più ripidi.</p>
 		</div>
-		<div class="content">Content</div>
+		
+		<div class="picker-bar">
+			<div class="picker-choice"><div class="picker button cascata" id="relazione-button">Relazione</div></div>
+			<div class="picker-choice"><div class="picker button cascata" id="condizioni-button">Condizioni</div></div>
+			<div class="picker-choice"><div class="picker button cascata" id="racconti-button">Racconti</div></div>
+			<div class="picker-choice"><div class="picker button cascata" id="foto-button">Foto</div></div>
+		</div>
+		
+		<div class="content">
+		
+			<!-- Relazione -->
+			<div id="relazione" class="relazione">
+				<h3>Relazione</h3>
+				
+				<table class="info cascata">
+					<tr>
+						<th>Data Uscita</th>
+						<td>02-01-2023, Lunedì</td>
+						<th>Area</th>
+						<td>Val Malenco</td>
+					</tr>
+					<tr>
+						<th>Luogo di Partenza</th>
+						<td>Pian del Lupo - Chiareggio (SO)</td>
+						<th>Quota</th>
+						<td>
+							1630m la partenza<br>
+							2050m (circa) l'attacco della cascata<br>
+							2150m (circa) l'uscita della cascata
+						</td>
+					</tr>
+					<tr>
+						<th>Dislivello</th>
+						<td>520m (circa)</td>
+						<th>Tempi</th>
+						<td>5:30 ore (2:00 ore la via)</td>
+					</tr>
+					<tr>
+						<th>Esposizione</th>
+						<td>Est</td>
+						<th>Difficoltà Tecnica</th>
+						<td>WI3 ghiaccio, 70° neve</td>
+					</tr>
+					<tr>
+						<th>Punti di Appoggio</th>
+						<td>Nessuno</td>
+						<th>Acqua</th>
+						<td>I vari fiumi della valle (non ghiacciati alla nostra ripetizione)</td>
+					</tr>
+					<tr>
+						<th>Partecipanti</th>
+						<td colspan="3">Henry, Walterino, Walterone - Oracolo, Ste</td>
+					</tr>
+				</table>
+				
+				<div class="left"> 
+				
+					<h4>Accesso</h4>
+					
+					Da Sondrio salire in Val Malenco e all'altezza di chiesa portarsi verso Nord-Ovest (sinistra) sulla strada che passando da San Giuseppe arriva fino a Chiareggio. Parcheggiare la macchina in località Pian del Lupo, dove la strada termina scendendo verso il fiume Mallero facendo un tornante.
+					
+					<h4>Avvicinamento</h4>
+					
+					Proseguire su strada ben pistata dalle motoslitte fino al primo ponte, e seguire le indicazioni per l'Alpe Vazzeda Inferiore che si raggiunge per sentiero. Da qui la cascata è evidente, verso Ovest ci sono tre colate e la centrale è quella nel mezzo. Abbandonare presto il sentiero che sale all'Alpe Vazzeda Superiore e per pendii cercando la linea più semplice per portarsi alla base della cascata.
+					
+					<h4>Via</h4>
+					
+					<div class="halved-grid">
+						<div class="halved-block-text"><b>L1:</b> salire la colata cercando i punti più facili. Dopo i primi metri verticali la cascata si appoggia parecchio e lascia spazio anche a pendii nevosi, fino a una zona dove gira decisamente a sinistra per una goulotte larga, dove far sosta su ghiaccio.
+						<br>&#187; 45m (WI2+)</div>
+						
+						<div class="halved-block-image"><a href="l1.jpg" target="_blank" rel="noopener noreferrer">
+							<img class="image" src="l1.jpg">
+						</a></div>
+						
+						<div class="halved-block-text"><b>L2:</b> salire facilmente la goulotte fino a dove il ghiaccio inizia a diventare verticale. Sosta su ghiaccio.
+						<br>&#187; 20m (60°-70° neve)</div>
+						
+						<div class="halved-block-image"><a href="l2.jpg" target="_blank" rel="noopener noreferrer">
+							<img class="image" src="l2.jpg">
+						</a></div>
+						
+						<div class="halved-block-text"><b>L3:</b> salire il salto (più facile sulla sinistra) fino a quasi sotto l'ultimo pezzo verticale. Spostarsi brevemente a destra e mediante pochi metri ripidi uscire sul pendio sommitale. Sosta su pianta o su spuntone.
+						<br>&#187; 30m (WI3)</div>
+						
+						<div class="halved-block-image"><a href="l3.jpg" target="_blank" rel="noopener noreferrer">
+							<img class="image" src="l3.jpg">
+						</a></div>
+					</div>
+					
+					<h4>Discesa</h4>
+					
+					<div class="halved-grid">
+						<div class="halved-block-text">Se le condizioni della neve lo permettono è possibile uscire verso l'alto e traversare a destra fino a ricongiungersi al sentiero che scende dall'Alpe Vazzeda Superiore. Noi abbiamo optato per la discesa in doppia: 60m su albero (cordone + maglia rapida) e 50m su abalakov.</div>
+						
+						<div class="halved-block-image"><a href="discesa.jpg" target="_blank" rel="noopener noreferrer">
+							<img class="image" src="discesa.jpg">
+						</a></div>
+					</div>
+				
+				</div>
+			</div>
+		
+			<!-- Condizioni -->
+			<div id="condizioni" class="condizioni hidden">
+				<h3>Condizioni</h3>
+				
+				<table class="info cascata">
+					<tr>
+						<th>Meteo e Condizioni</th>
+						<td>Giornata calda anche se non bellissima. Nonostante le ultime settimane secche la neve si è accumulata in gran quantità, rendendo l'avvicinamento fuori traccia faticoso. Il ghiaccio è in buone condizioni, anche se non tantissimo.</td>
+					</tr>
+					<tr>
+						<th>Difficoltà Percepita</th>
+						<td>AD (Oracolo)</td>
+					</tr>
+					<tr>
+						<th>Giudizio Soggettivo</th>
+						<td>
+							<img class="star" src="../assets/star.png">
+							<img class="star" src="../assets/star.png">
+							<img class="star" src="../assets/star.png">
+							<img class="star" src="../assets/emptystar.png">
+							<img class="star" src="../assets/emptystar.png"> (Oracolo)
+						</td>
+					</tr>
+					<tr>
+						<th>Materiale</th>
+						<td>NDA per arrampicata su ghiaccio (imbrago, casco, scarponi pesanti, ramponi, 2 picozze tecniche, almeno 10 viti con relativo rinvio, cordini per soste o abbandono, gancio per abalakov). Necessarie mezze corde, meglio se da 60m. Alla data della nostra ripetizione protezioni veloci non necessarie.</td>
+					</tr>
+					<tr>
+						<th>Orientamento</th>
+						<td>Evidente il sentiero fino alla deviazione per l'alpe Vazzeda Inferiore (motoslitte). Ben tracciato fino all'alpe Vazzeda Inferiore. Varie piccole tracce fino all'attacco, noi abbiamo seguito la più evidente ma il percorso non è obbligato.</td>
+					</tr>
+					<tr>
+						<th>Chiodatura</th>
+						<td>S3 su cordone e maglia rapida. In cima al primo tiro c'è un cordone su pianta ma facendo 60m di calata dalla S3 non ci si arriva senza disarrampicare o fare una calatina su ghiaccio.</td>
+					</tr>
+				</table>
+			</div>
+		
+			<!-- Racconti -->
+			<div id="racconti" class="racconti hidden">
+				<h3>Racconti</h3>
+				
+				<div class="story left">
+				
+					<div class="profile-block">
+						<img class="profile" src="../assets/people/ste.png">
+						<br>Ste img
+					</div>
+					
+					<div class="story-block cascata">
+						<p>E così inizia il 2023! Nonostante le temperature del tutto anomale per la stagione (+1°C alle 9 del mattino a Chiareggio!), l’intuito del Vecio non sbaglia. A Vazzeda troviamo le cascate ancora discretamente formate. Le 3 cascate che si formano da questa bastionata offrono difficoltà per ogni picca. Noi saliamo la centrale (la più facile), dove troveremo 2 cordate a precederci.</p>
+						
+						<div class="halved-grid">
+							<div class="halved-block-text"><p>In partenza dal pian del Lupo. Già si vedono le cascate sullo sfondo.</p></div>
+							
+							<div class="halved-block-image"><a href="raccontoste1.jpg" target="_blank" rel="noopener noreferrer">
+								<img class="image" src="raccontoste1.jpg">
+							</a></div>
+							
+							<div class="halved-block-text">Tra ghiaccio granitoso, blocchi che ci cadono in testa e incroci di corde, finalmente facciamo la prima sosta su viti. Il primo tiro non sarà il più difficile ma sicuramente è stato il più faticoso.</div>
+							
+							<div class="halved-block-image"><a href="raccontoste2.jpg" target="_blank" rel="noopener noreferrer">
+								<img class="image" src="raccontoste2.jpg">
+							</a></div>
+							
+							<div class="halved-block-text">Il secondo tiro nelle condizioni attuali è più un canale che una cascata.</div>
+							
+							<div class="halved-block-image"><a href="raccontoste3.jpg" target="_blank" rel="noopener noreferrer">
+								<img class="image" src="raccontoste3.jpg">
+							</a></div>
+							
+							<div class="halved-block-image"><a href="raccontoste4.jpg" target="_blank" rel="noopener noreferrer">
+								<img class="image" src="raccontoste4.jpg">
+							</a></div>
+							
+							<div class="halved-block-text">Sul terzo tiro troviamo invece un bel muretto di ghiaccio in buone condizioni, anche se con qualche accumulo di neve. Il trio dei luci invece opta per attaccare il muretto più in alto, compiendo un ravanoso traverso verso destra su neve inconsistente, cosa che sarà fonte di acceso dibattito una volta raggiunta l’ultima sosta.</div>
+							
+							<div class="halved-block-text">Fine delle peripezie e sosta su albero dove abbiamo lasciato un cordone con maglia rapida per le calate. Una calata fino alla sosta di L1 ed un’altra su abalakov ci riportano agli zaini.</div>
+							
+							<div class="halved-block-image"><a href="raccontoste5.jpg" target="_blank" rel="noopener noreferrer">
+								<img class="image" src="raccontoste5.jpg">
+							</a></div>
+						
+						</div>
+					</div>
+					
+					<div class="story-block cascata">
+					Prima cascata della stagione per me, gli altri han già fatto un giro al Castello. Saliamo in Val Malenco titubanti, a San Giuseppe le cascate non ci sono ma la Pirolina a detta di Henry c'è e parcheggiando a Pian del Lupo ci sembra di vedere le cascate di Vazzeda. Saliamo a vedere ed effettivamente ci sono, raggiungiamo l'attacco non senza fatica. Due cordate di valtellinesi davanti a noi, si parte in alternata con Ste dove farò L2, mentre per il resto devo dire L3 relativamente impegnativo (con tanto di bollita per quanto mi riguarda in uscita). I veci faranno uno strano traverso per ricongiungersi all'uscita. Ci caliamo abbandonando cordone e maglia rapida per la prima doppia e sull'abalakov dei valtellinesi per la seconda.
+					</div>
+				
+					<div class="profile-block">
+						<img class="profile" src="../assets/people/oracolo.png">
+						<br>Oracolo
+					</div>
+					
+					<div class="profile-block">
+						<img class="profile" src="../assets/people/ste.png">
+						<br>Ste
+					</div>
+					
+					<div class="story-block cascata">
+					E così inizia il 2023! Nonostante le temperature del tutto anomale per la stagione (+1°C alle 9 del mattino a Chiareggio!), l’intuito del Vecio non sbaglia. A Vazzeda troviamo le cascate ancora discretamente formate. Le 3 cascate che si formano da questa bastionata offrono difficoltà per ogni picca. Noi saliamo la centrale (la più facile), dove troveremo 2 cordate a precederci. In partenza dal pian del Lupo. Già si vedono le cascatesullo sfondo Tra ghiaccio granitoso, blocchi che ci cadono in testa e incroci di corde, finalmente facciamo la prima sosta su viti. Il primo tiro non sarà il più difficile ma sicuramente è stato il più faticoso. Il secondo tiro nelle condizioni attuali è più un canale che una cascata. Sul terzo tiro troviamo invece un bel muretto di ghiaccio in buone condizioni, anche se con qualche accumulo di neve. Il trio dei luci invece opta per attaccare il muretto più in alto, compiendo un ravanoso traverso verso destra su neve inconsistente, cosa che sarà fonte di acceso dibattito una volta raggiunta l’ultima sosta. Fine delle peripezie e sosta su albero dove abbiamo lasciato un cordone con maglia rapida per le calate. Una calata fino alla sosta di L1 ed un’altra su abalakov ci riportano agli zaini
+					</div>
+				</div>
+			</div>
+		
+			<!-- Foto -->
+			<div id="foto" class="foto hidden">
+				<h3>Foto</h3>
+				
+				<a href="https://photos.app.goo.gl/yqhQ2Y3sa8HRg3sH8" target="_blank" rel="noopener noreferrer">Google Album</a>
+			</div>
+		</div>
 	</div>
-
-<br><br><br><br><br><br>
-
-<div align="center"> 
-      <table width="800" border="1" align="left">
-    <tr>
-      <td width="775" height="50" align="center" valign="middle">
-        <img src="assets/banner/cascata.png"></td>
-    </tr>
-    <tr>
-      <td width="775" height="50" align="center" valign="middle">
-        <p><font color="#666666" size="4" face="Tahoma"><strong>Val Malenco - Cascata Vazzeda Centrale</strong></font></td>
-    </tr>
-    <tr> 
-      <td width="800" colspan="3" valign="top"><table width="800" border="0" align="center">
-          <tr valign="top"> 
-            <td width="125" height="1"><font face="Tahoma" size="2"><b>Zona montuosa</b></font></td>
-            <td width="268" height="1"><font face="Tahoma" size="2">Val Malenco</font></td>
-            <td width="163" height="1"><font face="Tahoma" size="2"><b>Località 
-            di partenza</b></font></td>
-            <td width="226" height="1"><font face="Tahoma" size="2">Pian del Lupo - Chiareggio (SO)</font></td>
-          </tr>
-          <tr valign="top"> 
-            <td width="125" height="19"><font face="Tahoma" size="2"><b>Quota 
-              partenza</b></font></td>
-            <td width="268" height="19"><font face="Tahoma" size="2">1600 Mt.</font></td>
-            <td width="163" height="19"><font face="Tahoma" size="2"><b>Quota di 
-            arrivo</b></font></td>
-            <td width="226" height="19"><font face="Tahoma" size="2">2100 Mt. circa</font></td>
-          </tr>
-          <tr valign="top"> 
-            <td width="125" height="19"><font face="Tahoma" size="2"><b>Dislivello 
-              totale</b></font></td>
-            <td width="268" height="19"><font face="Tahoma" size="2">+400 Mt. circa 
-              per l'attacco<br>
-            +100 Mt. la cascata </font></td>
-            <td height="19" width="163"><font face="Tahoma" size="2"><b>Sentieri utilizzati</b></font></td>
-            <td height="19" width="226"><font face="Tahoma" size="2">???</font></td>
-          </tr>
-          <tr valign="top"> 
-            <td width="125" height="1"><font face="Tahoma" size="2"><b>Ore di 
-              salita</b></font></td>
-            <td width="268" height="1"><font face="Tahoma" size="2"> 1h30' per 
-            l'attacco<br>
-            2 h. la via</font></td>
-            <td width="163" height="1"><font face="Tahoma" size="2"><b>Ore di 
-              discesa</b></font></td>
-            <td width="226" height="1"><font face="Tahoma" size="2">1h le doppie<br>
-			1h fino al parcheggio</font></td>
-          </tr>
-          <tr valign="top">
-            <td height="19" width="125"><font face="Tahoma" size="2"><b>Esposizione</b></font></td>
-            <td height="19" width="268"><font face="Tahoma" size="2">Est</font></td>
-            <td height="18" width="163"><font face="Tahoma" size="2"><b>Giudizio 
-              sull'ascensione</b></font></td>
-            <td height="18" width="226"><font size="2" face="Tahoma">Bella</font></td>
-          </tr>
-          <tr valign="top">
-            <td height="19" width="125"><font face="Tahoma" size="2"><b>Data di 
-              uscita</b></font></td>
-            <td height="19" width="268"><font face="Tahoma" size="2">02/01/2023</font></td>
-            <td height="19" width="163"><font face="Tahoma" size="2"><strong>Difficolt&agrave;</strong></font></td>
-            <td height="19" width="226"><font size="2" face="Tahoma">3</font></td> 
-          </tr>
-          <tr valign="bottom">
-            <td height="19" colspan="4" width="794"><font face="Tahoma" size="2"><b>Luci 
-            presenti</b></font></td>
-          </tr>
-          <tr valign="bottom">
-            <td height="19" colspan="4" width="794"><font face="Tahoma" size="2">Dello, Henry, Ste, Walterino, Walterone</font></td>
-          </tr>
-          <tr valign="bottom"> 
-            <td height="19" colspan="4" width="794"><font face="Tahoma" size="2"><b> 
-            Condizioni climatiche, dei sentieri e del ghiaccio</b></font></td>
-          </tr>
-          <tr valign="top"> 
-            <td height="19" colspan="4" valign="top" width="794"><p><font size="2" face="Tahoma">
-              Giornata calda anche se non bellissima. Nonostante le ultime settimane secche la neve si è accumulata in gran quantità, rendendo l'avvicinamento fuori traccia faticoso. Il ghiaccio è in buone condizioni, anche se non tantissimo.</font></p></td>
-          </tr>
-          <tr valign="bottom"> 
-            <td height="19" colspan="4" valign="bottom" width="794"><font face="Tahoma" size="2"><b> 
-              Eventuali pericoli</b></font></td>
-          </tr>
-          <tr> 
-            <td height="19" colspan="4" valign="top" width="794">
-            <font face="Tahoma" size="2">Soliti pericoli dovuti all'arrampicata 
-            su ghiaccio. Portare sempre il caschetto! I pendii soprastanti possono scaricare in caso di inverni particolarmente nevosi.</font></td>
-          </tr>
-          <tr> 
-            <td height="19" colspan="4" valign="bottom" width="794"><font face="Tahoma" size="2"><b> 
-              Presenza di acqua</b></font></td>
-          </tr>
-          <tr> 
-            <td height="19" colspan="4" valign="top" width="794"><font size="2" face="Tahoma">I vari fiumi della valle, sempre non siano ghiacciati (non lo erano alla nostra ripetizione)</font></td>
-          </tr>
-          <tr> 
-            <td height="19" colspan="4" valign="bottom" width="794"><font face="Tahoma" size="2"><b> 
-              Punti di appoggio</b></font></td>
-          </tr>
-          <tr> 
-            <td height="19" colspan="4" valign="top" width="794"><font size="2" face="Tahoma">
-            Nessuno.</font></td>
-          </tr>
-          <tr> 
-            <td height="19" colspan="4" valign="bottom" width="794"><font face="Tahoma" size="2"><b> 
-              Materiale necessario oltre al tradizionale</b></font></td>
-          </tr>
-          <tr> 
-            <td height="17" colspan="4" valign="top" width="794"><font size="2" face="Tahoma">
-            Solito materiale per arrampicata su ghiaccio: picche, ramponi e viti da ghiaccio. Portare materiale per abalakov.</font></td>
-          </tr>
-          <tr> 
-            <td height="19" colspan="4" valign="bottom" width="794"><font face="Tahoma" size="2"><b> 
-              Caratteristiche dell'arrampicata</b></font></td>
-          </tr>
-          <tr> 
-            <td height="19" colspan="4" valign="top" width="794"><p><font face="Tahoma" size="2"> 
-              <b>Descrizione generale</b><br>
-              Boh, sarebbe da fare questa
-              <br>
-              <b>Attacco, descrizione della cascata</b><br>
-                Da Sondrio salire in Val Malenco e all'altezza di chiesa portarsi verso Nord-Ovest (sinistra) sulla strada che passando da San Giuseppe arriva fino a Chiareggio. Parcheggiare la macchina in località Pian del Lupo, dove la strada termina scendendo verso il fiume Mallero facendo un tornante. Proseguire su strada ben pistata dalle motoslitte fino al primo ponte, e seguire le indicazioni per l'Alpe Vazzeda Inferiore che si raggiunge per sentiero. Da qui la cascata è evidente, verso Ovest ci sono tre colate e la centrale è quella nel mezzo. Abbandonare presto il sentiero che sale all'Alpe Vazzeda Superiore e per pendii cercando la linea più semplice portarsi alla base della cascata.<br>
-              <br>
-              1° tiro:<br>
-              salire la colata cercando i punti più facili. Dopo i primi metri verticali la cascata si appoggia parecchio e lascia spazio anche a pendii nevosi, fino a una zona dove gira decisamente a sinistra per una goulotte larga, dove far sosta su ghiaccio. 45 Mt., 2+.<br>
-              <br>
-              2&deg; tiro:<br>
-              salire facilmente la goulotte (60-70*) fino a dove il ghiaccio inizia a diventare verticale. Sosta su ghiaccio. 20 Mt..</font><font face="Tahoma" size="2"><br>
-              <br>
-              3&deg; tiro:<br>
-              salire il salto (più facile sulla sinistra) fino a quasi sotto l'ultimo pezzo verticale. Spostarsi brevemente a destra e mediante pochi metri ripidi uscire sul pendio sommitale. Sosta su pianta o su spuntone. 30 Mt. 3.</font><font face="Tahoma" size="2"><br>
-                <b>Discesa</b><br>
-                Se le condizioni della neve lo permettono è possibile uscire verso l'alto e traversare a destra fino a ricongiungersi al sentiero che scende dall'Alpe Vazzeda Superiore. Noi abbiamo optato per la discesa in doppia: 60mt su albero (cordone + maglia rapida) e 50mt su abalakov.</font></p></td>
-          </tr>
-          </table>
-  <div align="left"></div>
-</div>
 
 </body>
