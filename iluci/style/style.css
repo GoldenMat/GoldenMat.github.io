@@ -19,20 +19,19 @@ body {
 }
 
 .escursionismo {
-	background-color: moccasin;
+	background-color: lawngreen;
 }
 
 .falesia {
-	background-color: lightcoral;
+	background-color: pink;
 }
 
 .ferrata {
-	background-color: darkslategrey;
-	color: white;
+	background-color: silver;
 }
 
 .ghiaccio {
-	background-color: mediumaquamarine;
+	background-color: cornflowerblue;
 }
 
 .roccia {
@@ -40,7 +39,7 @@ body {
 }
 
 .sci {
-	background-color: lightblue;
+	background-color: powderblue;
 }
 
 .banner-container {
