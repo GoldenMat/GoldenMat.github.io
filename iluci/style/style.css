@@ -176,6 +176,11 @@ body {
 	width: 5em;
 }
 
+.person {
+	width: 2.5em;
+	vertical-align: middle;
+}
+
 .info th {
 	border: 1px solid black;
 	border-collapse: collapse;
