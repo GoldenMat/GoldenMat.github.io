@@ -1,0 +1,206 @@
+<head>
+	<link rel="stylesheet" href="../style/style.css">
+	<script type="text/javascript" src="../script/script.js"></script>
+	<link rel="icon" type="image/x-icon" href="../assets/icon.png">
+	<title>I Luci! ?Cima - ?Via</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="container">
+	
+		<div class="banner-container"><img class="banner" src="../assets/banner/alpinismoroccia.png"></div>
+		
+		<!-- Descrizione -->
+		<div class="description">
+			<h2>?Cima - ?Via</h2>
+			
+			<a href="schizzo.png" target="_blank" rel="noopener noreferrer">
+				<img class="schizzo" src="schizzo.png">
+			</a>
+			<br><p class="caption">(clicca sull'immagine per ingrandirla)</p>
+			
+			<p>?Descrizione</p>
+		</div>
+		
+		<div class="picker-bar">
+			<div class="picker-choice"><div class="picker button roccia" id="relazione-button">Relazione</div></div>
+			<div class="picker-choice"><div class="picker button roccia" id="condizioni-button">Condizioni</div></div>
+			<div class="picker-choice"><div class="picker button roccia" id="racconti-button">Racconti</div></div>
+			<div class="picker-choice"><div class="picker button roccia" id="foto-button">Foto</div></div>
+		</div>
+		
+		<div class="content">
+		
+			<!-- Relazione -->
+			<div id="relazione" class="relazione">
+				<h3>Relazione</h3>
+				
+				<table class="info roccia">
+					<tr>
+						<th>Data Uscita</th>
+						<td>?DD-MM-YYYY, ?GiornoSettimana</td>
+						<th>Area</th>
+						<td>?Gruppo</td>
+					</tr>
+					<tr>
+						<th>Luogo di Partenza</th>
+						<td>?Luogo - ?Comune (?SiglaProvincia)</td>
+						<th>Quota</th>
+						<td>
+							?m la partenza<br>
+							?m la cima
+						</td>
+					</tr>
+					<tr>
+						<th>Dislivello</th>
+						<td>?m</td>
+						<th>Tempi</th>
+						<td>?hh:mm ore (?hh:mm ore la via)</td>
+					</tr>
+					<tr>
+						<th>Esposizione</th>
+						<td>?PuntiCardinali</td>
+						<th>Difficoltà Tecnica</th>
+						<td>?UIAA/Francese</td>
+					</tr>
+					<tr>
+						<th>Punti di Appoggio</th>
+						<td>?</td>
+						<th>Acqua</th>
+						<td>?</td>
+					</tr>
+					<tr>
+						<th>Partecipanti</th>
+						<td colspan="3"><img class="person" src="../assets/people/?persona.png"> ?Persona</td>
+					</tr>
+				</table>
+				
+				<div class="left"> 
+				
+					<div class="centered"><a href="?data.gpx" target="_blank" download>
+						<img class="traccia" src="traccia.png">
+					</a></div>
+					<br><p class="caption">(clicca sull'immagine per scarica la traccia GPS)</p>
+				
+					<h4>Accesso</h4>
+					
+					<p>?Accesso</p>
+					
+					<h4>Avvicinamento</h4>
+					
+					<div class="halved-grid">
+						<div class="halved-block-text">?Avvicinamento1</div>
+						
+						<div class="halved-block-image"><a href="a1.jpg" target="_blank" rel="noopener noreferrer">
+							<img class="image" src="a1.jpg">
+						</a></div>
+					</div>
+					
+					<h4>Via</h4>
+					
+					<div class="halved-grid">
+						<div class="halved-block-text">?Via1
+						<br>&#187; ?m, ? chiodatura (?difficolta)</div>
+						
+						<div class="halved-block-image"><a href="l1.jpg" target="_blank" rel="noopener noreferrer">
+							<img class="image" src="l1.jpg">
+						</a></div>
+						
+						<div class="halved-block-text">?Raccordo1
+						<br>&#187; ?m</div>
+						
+						<div class="halved-block-image"><a href="r1.jpg" target="_blank" rel="noopener noreferrer">
+							<img class="image" src="r1.jpg">
+						</a></div>
+					</div>
+					
+					<h4>Discesa</h4>
+					
+					<div class="halved-grid">
+						<div class="halved-block-text">?Discesa1</div>
+						
+						<div class="halved-block-image"><a href="d1.jpg" target="_blank" rel="noopener noreferrer">
+							<img class="image" src="d1.jpg">
+						</a></div>
+					</div>
+				
+				</div>
+			</div>
+		
+			<!-- Condizioni -->
+			<div id="condizioni" class="condizioni hidden">
+				<h3>Condizioni</h3>
+				
+				<table class="info roccia">
+					<tr>
+						<th>Meteo e Condizioni</th>
+						<td>?</td>
+					</tr>
+					<tr>
+						<th>Difficoltà Percepita</th>
+						<td>?GradoFrancese (Persona)</td>
+					</tr>
+					<tr>
+						<th>Giudizio Soggettivo</th>
+						<td>
+							<img class="star" src="../assets/star.png">
+							<img class="star" src="../assets/emptystar.png"> (?Persona)
+						</td>
+					</tr>
+					<tr>
+						<th>Materiale</th>
+						<td>?</td>
+					</tr>
+					<tr>
+						<th>Orientamento</th>
+						<td>?</td>
+					</tr>
+					<tr>
+						<th>Chiodatura</th>
+						<td>?</td>
+					</tr>
+				</table>
+			</div>
+		
+			<!-- Racconti -->
+			<div id="racconti" class="racconti hidden">
+				<h3>Racconti</h3>
+				
+				<div class="story left">
+				
+					<div class="profile-block">
+						<img class="profile" src="../assets/people/?persona.png">
+						<br>?Persona
+					</div>
+					
+					<div class="story-block roccia">
+						?Racconto
+					</div>
+				</div>
+			</div>
+		
+			<!-- Foto -->
+			<div id="foto" class="foto hidden">
+				<h3>Foto</h3>
+				
+				<a href="?link" target="_blank" rel="noopener noreferrer">
+					<img src="../assets/googlephotos.png">
+					<p>Google Photos Album</p>
+				</a>
+			</div>
+		</div>
+	
+		<a href="../">
+			<div class="back roccia">
+				<div class="back-button">
+					<img class="back-image" src="../assets/back.png">
+				</div>
+				<div class="back-text">
+					<p class="back-text">Home</p>
+				</div>
+			</div>
+		</a>
+	</div>
+
+</body>
