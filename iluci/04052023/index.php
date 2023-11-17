@@ -1,7 +1,7 @@
 <?php
 	$title = "Moregallo - Cresta OSA";
-    $track = "04102023.gpx";
-	$day = "04-10-2023, Mercoledì";
+    $track = "04052023.gpx";
+	$day = "04-05-2023, Giovedì";
 	$participants = "<img class=\"person\" src=\"../assets/people/oracolo.png\"> Oracolo";
 	$path = "../relazioni/11_1_9/crestaosa/";
 ?>
@@ -45,7 +45,7 @@
 				<table class="info roccia">
 					<tr>
 						<th>Meteo e Condizioni</th>
-						<td>Serata nebbiosa ma non fredda. La roccia in via come al solito è ottima, a parte il canaletto che porta al ponte di roccia, quindi ordinaria amministrazione.</td>
+						<td>Serata un po' nuvolosa, poi in cima si è aperto tutto con un bel tramonto. Temperatura perfetta, si scalava in maglietta senza aver caldo nè freddo. La roccia in via come al solito è ottima, a parte il canaletto che porta al ponte di roccia, quindi ordinaria amministrazione.</td>
 					</tr>
 					<tr>
 						<th>Difficoltà Percepita</th>
@@ -58,7 +58,7 @@
 							<img class="star" src="../assets/star.png">
 							<img class="star" src="../assets/star.png">
 							<img class="star" src="../assets/star.png">
-							<img class="star" src="../assets/emptystar.png"> (Oracolo)
+							<img class="star" src="../assets/star.png"> (Oracolo)
 						</td>
 					</tr>
 					<tr>
@@ -88,7 +88,7 @@
 					</div>
 					
 					<div class="story-block roccia">
-						Giretto solitario in OSA post lavoro, parto presto e vado deciso fino all'attacco bypassando Sambrosera, nessun problema sulla via a parte il solito passo sulla paretina. Provo una variante a sx prima dei tiri finali ma poi torno sul facile, roccia marcissima. In alto nebbia e freschino, scendo con calma nel buio con la frontale. Comunque buono stato di forma tutto sommato.
+						Allenamento serale solitario in crestina, in vista di un progetto che vorrei portare a termine quest'estate. Tutto ok, sia fisicamente che di testa, in meno di 2 ore ero in cima facendo comunque tante foto.
 					</div>
 				</div>
 			</div>
@@ -97,7 +97,7 @@
 			<div id="foto" class="foto hidden">
 				<h3>Foto</h3>
 				
-				<a href="https://photos.app.goo.gl/pDqw98YpcWvHSsJx7" target="_blank" rel="noopener noreferrer">
+				<a href="https://photos.app.goo.gl/vRbwMpxFw6ketWg48" target="_blank" rel="noopener noreferrer">
 					<img src="../assets/googlephotos.png">
 					<p>Google Photos Album</p>
 				</a>

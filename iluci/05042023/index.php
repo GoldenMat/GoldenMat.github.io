@@ -1,8 +1,8 @@
 <?php
 	$title = "Moregallo - Cresta OSA";
-    $track = "04102023.gpx";
-	$day = "04-10-2023, Mercoledì";
-	$participants = "<img class=\"person\" src=\"../assets/people/oracolo.png\"> Oracolo";
+    $track = "05042023.gpx";
+	$day = "05-04-2023, Mercoledì";
+	$participants = "<img class=\"person\" src=\"../assets/people/maraja.png\"> Maraja, <img class=\"person\" src=\"../assets/people/oracolo.png\"> Oracolo";
 	$path = "../relazioni/11_1_9/crestaosa/";
 ?>
 
@@ -45,7 +45,7 @@
 				<table class="info roccia">
 					<tr>
 						<th>Meteo e Condizioni</th>
-						<td>Serata nebbiosa ma non fredda. La roccia in via come al solito è ottima, a parte il canaletto che porta al ponte di roccia, quindi ordinaria amministrazione.</td>
+						<td>Serata limpida ma un po' fredda, in questo periodo il sole il pomeriggio va giù presto e la zona del Moregallo è una delle prime ad andare in ombra. La roccia in via come al solito è ottima, a parte il canaletto che porta al ponte di roccia, quindi ordinaria amministrazione.</td>
 					</tr>
 					<tr>
 						<th>Difficoltà Percepita</th>
@@ -58,7 +58,7 @@
 							<img class="star" src="../assets/star.png">
 							<img class="star" src="../assets/star.png">
 							<img class="star" src="../assets/star.png">
-							<img class="star" src="../assets/emptystar.png"> (Oracolo)
+							<img class="star" src="../assets/star.png"> (Oracolo)
 						</td>
 					</tr>
 					<tr>
@@ -88,7 +88,7 @@
 					</div>
 					
 					<div class="story-block roccia">
-						Giretto solitario in OSA post lavoro, parto presto e vado deciso fino all'attacco bypassando Sambrosera, nessun problema sulla via a parte il solito passo sulla paretina. Provo una variante a sx prima dei tiri finali ma poi torno sul facile, roccia marcissima. In alto nebbia e freschino, scendo con calma nel buio con la frontale. Comunque buono stato di forma tutto sommato.
+						Iniziano i giretti dopo il lavoro al tramonto, e io e il Maraja optiamo per andare in crestina OSA. Alla fine siam da soli quindi ci concediamo il lusso di farla slegati, che comunque non è la prima volta per nessuno dei due. In un paio d'ore dalla macchina siamo in cima, pur facendo tutto il percorso chiacchierando, quindi ci concediamo una birretta e qualche snack, per poi scendere con le frontali concludendo la bella serata.
 					</div>
 				</div>
 			</div>
@@ -97,7 +97,7 @@
 			<div id="foto" class="foto hidden">
 				<h3>Foto</h3>
 				
-				<a href="https://photos.app.goo.gl/pDqw98YpcWvHSsJx7" target="_blank" rel="noopener noreferrer">
+				<a href="https://photos.app.goo.gl/KV4ioPBGVwBRLF238" target="_blank" rel="noopener noreferrer">
 					<img src="../assets/googlephotos.png">
 					<p>Google Photos Album</p>
 				</a>

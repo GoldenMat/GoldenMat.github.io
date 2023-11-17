@@ -1,8 +1,8 @@
 <?php
 	$title = "Moregallo - Cresta OSA";
-    $track = "04102023.gpx";
-	$day = "04-10-2023, Mercoledì";
-	$participants = "<img class=\"person\" src=\"../assets/people/oracolo.png\"> Oracolo";
+    $track = "06112023.gpx";
+	$day = "06-11-2023, Lunedì";
+	$participants = "<img class=\"person\" src=\"../assets/people/maraja.png\"> Maraja, <img class=\"person\" src=\"../assets/people/oracolo.png\"> Oracolo";
 	$path = "../relazioni/11_1_9/crestaosa/";
 ?>
 
@@ -45,7 +45,7 @@
 				<table class="info roccia">
 					<tr>
 						<th>Meteo e Condizioni</th>
-						<td>Serata nebbiosa ma non fredda. La roccia in via come al solito è ottima, a parte il canaletto che porta al ponte di roccia, quindi ordinaria amministrazione.</td>
+						<td>Serata limpida e dalle temperature non troppo rigide, in salita son stato in maglietta visto anche il ritmo forte con cui siamo andati. Qualche lampo verso Nord dalla cima ma non ha piovuto finchè non eravamo a casa da un pezzo. La roccia in via come al solito è ottima, a parte il canaletto che porta al ponte di roccia, quindi ordinaria amministrazione.</td>
 					</tr>
 					<tr>
 						<th>Difficoltà Percepita</th>
@@ -88,7 +88,7 @@
 					</div>
 					
 					<div class="story-block roccia">
-						Giretto solitario in OSA post lavoro, parto presto e vado deciso fino all'attacco bypassando Sambrosera, nessun problema sulla via a parte il solito passo sulla paretina. Provo una variante a sx prima dei tiri finali ma poi torno sul facile, roccia marcissima. In alto nebbia e freschino, scendo con calma nel buio con la frontale. Comunque buono stato di forma tutto sommato.
+						I giri post lavoro per quanto mi riguarda erano finiti, nonostante ciò mi aggrego a Nicholas che vuole fare una crestina in velocità. Ci troviamo all'imbrunire e in meno di 45 minuti siamo all'attacco, da cui lui parte sparato mentre io mi sistemo un attimo e poi lo seguo a distanza, fondamentalmente rimarrà sempre 5 minuti avanti a me. Tra il buio, il fatto di farla in velocità, e le poche foto alla fine saremo in cima in circa 1h15 o giù di lì, non male. Ritorno più tranquillo, nonostante un fulmine proveniente dal San Primo che non so bene onestamente se era brutto tempo lì o cosa, per quanto ci riguarda nessun problema a parte i sentieri un po' umidi ma è normale dopo tutte queste piogge. Ci ricolleghiamo alla strada di San Tomaso per risparmiare le ginocchia sull'ultimo tratto di discesa.
 					</div>
 				</div>
 			</div>
@@ -97,7 +97,7 @@
 			<div id="foto" class="foto hidden">
 				<h3>Foto</h3>
 				
-				<a href="https://photos.app.goo.gl/pDqw98YpcWvHSsJx7" target="_blank" rel="noopener noreferrer">
+				<a href="https://photos.app.goo.gl/C94MZsUV9EeKhnQQ6" target="_blank" rel="noopener noreferrer">
 					<img src="../assets/googlephotos.png">
 					<p>Google Photos Album</p>
 				</a>
