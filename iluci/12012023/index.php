@@ -1,9 +1,9 @@
 <?php
-	$title = "Moregallo - Cresta OSA";
-    $track = "06112023.gpx";
-	$day = "06-11-2023, Lunedì";
-	$participants = "<img class=\"person\" src=\"../assets/people/maraja.png\"> Maraja, <img class=\"person\" src=\"../assets/people/oracolo.png\"> Oracolo";
-	$folder = "/relazioni/11_1_9/crestaosa/";
+	$title = "Corna di Medale - Via Cassin";
+    $track = "12012023.gpx";
+	$day = "12-01-2023, Giovedì";
+	$participants = "<img class=\"person\" src=\"../assets/people/dello.png\"> Dello, <img class=\"person\" src=\"../assets/people/oracolo.png\"> Oracolo";
+	$folder = "/relazioni/29_2_3/cassin-medale/";
 	$path = ".." . $folder;
 ?>
 
@@ -33,7 +33,7 @@
 		</div>
 		
 		<div class="content">
-
+		
 			<!-- Relazione -->
 			<?php
 			include $path . 'index.php';
@@ -46,11 +46,11 @@
 				<table class="info roccia">
 					<tr>
 						<th>Meteo e Condizioni</th>
-						<td>Serata limpida e dalle temperature non troppo rigide, in salita son stato in maglietta visto anche il ritmo forte con cui siamo andati. Qualche lampo verso Nord dalla cima ma non ha piovuto finchè non eravamo a casa da un pezzo. La roccia in via come al solito è ottima, a parte il canaletto che porta al ponte di roccia, quindi ordinaria amministrazione.</td>
+						<td>Giornata soleggiata, temperatura ottima. Solo un po' nuvoloso a metà via. La roccia come sempre sulla Cassin è unta, la vegetazione essendo il periodo ideale non ha dato eccessivamente fastidio.</td>
 					</tr>
 					<tr>
 						<th>Difficoltà Percepita</th>
-						<td>F (Oracolo)</td>
+						<td>D (Oracolo)</td>
 					</tr>
 					<tr>
 						<th>Giudizio Soggettivo</th>
@@ -64,15 +64,15 @@
 					</tr>
 					<tr>
 						<th>Materiale</th>
-						<td>NDA per alpinismo su roccia (imbrago, casco, 4-6 rinvii, cordini). Eventualmente qualche friend medio, anche se clessidre e spuntoni abbondano. Scarpette non necessarie (o eventualmente toglierle dopo il camino) e nel caso in cui il primo di cordata abbia sufficiente esperienza una mezza corda è sufficiente.</td>
+						<td>NDA per alpinismo su roccia (imbrago, casco, scarpette, 10 rinvii, cordini per clessidre e alberi). Si può scalare anche con una singola volendo, le mezze rimangono utili solo se si integrasse tanto o se si volesse conservare la possibilità di scendere in doppia per ogni evenienza. La via è chiodata soprattutto dove è difficile, ma una serie di friend (0.4-2 BD) e qualche nut possono tornare utili.</td>
 					</tr>
 					<tr>
 						<th>Orientamento</th>
-						<td>I sentieri son tutti segnati e la via è super logica, nel dubbio rimanere sul filo di cresta che non si sbaglia.</td>
+						<td>Facile fino al sentiero sotto la parete, l'attacco non è difficile da trovare poichè indicato da un cartello su albero. In via si vede quasi sempre il resinato successivo, con l'eccezione di pochi tiri (facili), dove comunque la relazione e la logica della parete non lasciano spazio a dubbi. Il sentiero di discesa è evidente.</td>
 					</tr>
 					<tr>
 						<th>Chiodatura</th>
-						<td>Mancante su tutta la via, soste comprese a parte 3 (di cui una poco utile). Comunque visto la natura della via non c'è bisogno di niente che non offra già la roccia.</td>
+						<td>Per lo più a solidi resinati, con qualche chiodo vecchio. Le soste sono sempre su due resinati con catena. Su L3 e L4 ci sono delle piccole catene poco sopra le soste, utili da usare eventualmente col piede per chi non si fidasse della roccia molto unta.</td>
 					</tr>
 				</table>
 			</div>
@@ -89,7 +89,7 @@
 					</div>
 					
 					<div class="story-block roccia">
-						I giri post lavoro per quanto mi riguarda erano finiti, nonostante ciò mi aggrego a Nicholas che vuole fare una crestina in velocità. Ci troviamo all'imbrunire e in meno di 45 minuti siamo all'attacco, da cui lui parte sparato mentre io mi sistemo un attimo e poi lo seguo a distanza, fondamentalmente rimarrà sempre 5 minuti avanti a me. Tra il buio, il fatto di farla in velocità, e le poche foto alla fine saremo in cima in circa 1h15 o giù di lì, non male. Ritorno più tranquillo, nonostante un fulmine proveniente dal San Primo che non so bene onestamente se era brutto tempo lì o cosa, per quanto ci riguarda nessun problema a parte i sentieri un po' umidi ma è normale dopo tutte queste piogge. Ci ricolleghiamo alla strada di San Tomaso per risparmiare le ginocchia sull'ultimo tratto di discesa.
+						Dopo più di un anno dalla ripetizione con Teo torno in Medale, stavolta con Dello. Era un po' che ne parlavamo anche con gli altri ma Dello è libero e prendiamo l'occasione al balzo, andando solo noi. La giornata si rivela piacevole e la via filerà tutta liscia, con Dello che sale senza problemi l'ostico secondo diedro. Unica pecca (per quanto mi riguarda) è che non saliamo in cima, ma ho fatto decidere a lui visto anche che quest'estate sulle decisioni sono stato abbastanza testardo (anche se diciamocelo, a volte avevo ragione...). Visto il tempo risparmiato con la discesa rapida ci concediamo una bella pinsa e birretta al bar Sole per festeggiare la salita, sempre bello scalare in Medale.
 					</div>
 				</div>
 			</div>
@@ -98,7 +98,7 @@
 			<div id="foto" class="foto hidden">
 				<h3>Foto</h3>
 				
-				<a href="https://photos.app.goo.gl/C94MZsUV9EeKhnQQ6" target="_blank" rel="noopener noreferrer">
+				<a href="https://photos.app.goo.gl/pAK1HiMHkRbxvzer6" target="_blank" rel="noopener noreferrer">
 					<img src="../assets/googlephotos.png">
 					<p>Google Photos Album</p>
 				</a>

@@ -1,9 +1,8 @@
-
 <div class="description">
     <h2><?php echo $title; ?></h2>
     
-    <a href="schizzo.png" target="_blank" rel="noopener noreferrer">
-        <img class="schizzo" src="schizzo.png">
+    <a href="<?php echo $folder . "schizzo.png"; ?>" target="_blank" rel="noopener noreferrer">
+        <img class="schizzo" src="<?php echo $folder . "schizzo.png"; ?>">
     </a>
     <br><p class="caption">(clicca sull'immagine per ingrandirla)</p>
     

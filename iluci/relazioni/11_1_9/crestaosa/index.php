@@ -1,7 +1,3 @@
-<?php
-    $folder = "/relazioni/11_1_9/crestaosa/";
-?>
-
 <div id="relazione" class="relazione">
     <h3>Relazione</h3>
     
@@ -42,13 +38,11 @@
         </tr>
         <tr>
             <th>Partecipanti</th>
-            <td colspan="3">
-                <?php echo $participants; ?>
-            </td>
+            <td colspan="3"><?php echo $participants; ?></td>
         </tr>
     </table>
     
-    <div class="left"> 
+    <div class="left">
     
         <?php if(isset($track)) : ?>
             <div class="centered"><a href="<?php echo $track; ?>" target="_blank" download>
@@ -145,7 +139,7 @@
         <div class="halved-grid">
             <div class="halved-block-text">Il modo più veloce di scendere è dalla cima di scendere verso Est alla bocchetta di Sambrosera, da qui a destra nella valle Due Pile fino a ripercorrere l'avvicinamento dall'ultimo cartello prima della cresta OSA. Se si avesse tempo (io ho fatto così) è più consigliabile invece scendere dalla cresta Ovest (catene e staffe sulla prima parte, attenzione), passando dalla bocchetta di Moregge (ottimo panorama sul lago) e poi scendendo a sinistra per il sentiero che collega Pianezzo a Sambrosera, raggiugnendo quest'ultima e da qui tornando per il sentiero dell'avvicinamento.</div>
             
-            <div class="halved-block-image"><a href="<?php echo $folder . "d1.jpg"; ?> target="_blank" rel="noopener noreferrer">
+            <div class="halved-block-image"><a href="<?php echo $folder . "d1.jpg"; ?>" target="_blank" rel="noopener noreferrer">
                 <img class="image" src="<?php echo $folder . "d1.jpg"; ?>">
             </a></div>
         </div>
