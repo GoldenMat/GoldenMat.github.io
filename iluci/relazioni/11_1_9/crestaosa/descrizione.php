@@ -1,3 +1,7 @@
+<?php
+	$folder = "/relazioni/11_1_9/crestaosa/";
+?>
+
 <div class="description">
     <h2><?php echo $title; ?></h2>
     

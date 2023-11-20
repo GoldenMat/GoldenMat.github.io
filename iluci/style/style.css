@@ -65,11 +65,14 @@ body {
 }
 
 .picker-bar {
-	border-left: 1px solid black;
-	border-right: 1px solid black;
 	width: 100%;
 	font-size: 1.5em;
 	display: grid;
+}
+
+.bordered-sides {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
 }
 
 .picker {
@@ -200,6 +203,11 @@ body {
 
 .hidden {
 	display: none;
+}
+
+.selected {
+	border: 3px solid black;
+	text-decoration: underline;
 }
 
 .button {

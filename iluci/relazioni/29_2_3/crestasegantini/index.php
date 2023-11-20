@@ -1,3 +1,7 @@
+<?php
+	$folder = "/relazioni/29_2_3/crestasegantini/";
+?>
+
 <div id="relazione" class="relazione">
     <h3>Relazione</h3>
     

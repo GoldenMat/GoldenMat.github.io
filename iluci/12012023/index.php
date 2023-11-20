@@ -3,8 +3,7 @@
     $track = "12012023.gpx";
 	$day = "12-01-2023, Giovedì";
 	$participants = "<img class=\"person\" src=\"../assets/people/dello.png\"> Dello, <img class=\"person\" src=\"../assets/people/oracolo.png\"> Oracolo";
-	$folder = "/relazioni/29_2_3/cassin-medale/";
-	$path = ".." . $folder;
+	$path = "../relazioni/29_2_3/cassin-medale/";
 ?>
 
 <head>
@@ -25,8 +24,8 @@
 		include $path . 'descrizione.php';
 		?>
 		
-		<div class="picker-bar">
-			<div class="picker-choice"><div class="picker button roccia" id="relazione-button">Relazione</div></div>
+		<div class="picker-bar bordered-sides">
+			<div class="picker-choice"><div class="picker button roccia selected" id="relazione-button">Relazione</div></div>
 			<div class="picker-choice"><div class="picker button roccia" id="condizioni-button">Condizioni</div></div>
 			<div class="picker-choice"><div class="picker button roccia" id="racconti-button">Racconti</div></div>
 			<div class="picker-choice"><div class="picker button roccia" id="foto-button">Foto</div></div>

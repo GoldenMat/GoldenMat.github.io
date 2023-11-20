@@ -3,8 +3,7 @@
     $track = "09072023.gpx";
 	$day = "09-07-2023, Domenica";
 	$participants = "<img class=\"person\" src=\"../assets/people/oracolo.png\"> Oracolo";
-	$folder = "/relazioni/29_2_3/crestasegantini/";
-	$path = ".." . $folder;
+	$path = "../relazioni/29_2_3/crestasegantini/";
 ?>
 
 <head>
@@ -27,9 +26,9 @@
 		include $path . 'descrizione.php';
 		?>
 
-		<div class="picker-bar">
+		<div class="picker-bar bordered-sides">
 			<div class="picker-choice">
-				<div class="picker button roccia" id="relazione-button">Relazione</div>
+				<div class="picker button roccia selected" id="relazione-button">Relazione</div>
 			</div>
 			<div class="picker-choice">
 				<div class="picker button roccia" id="condizioni-button">Condizioni</div>
