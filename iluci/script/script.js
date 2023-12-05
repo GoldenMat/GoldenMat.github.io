@@ -6,14 +6,22 @@ window.addEventListener("load", function(){
 	document.getElementById("foto-button").onclick = function() {toggleContent("foto")};
 
 	function toggleContent(category) {
-		document.getElementById("relazione").classList.add('hidden');
-		document.getElementById("relazione-button").classList.remove('selected');
-		document.getElementById("condizioni").classList.add('hidden');
-		document.getElementById("condizioni-button").classList.remove('selected');
-		document.getElementById("racconti").classList.add('hidden');
-		document.getElementById("racconti-button").classList.remove('selected');
-		document.getElementById("foto").classList.add('hidden');
-		document.getElementById("foto-button").classList.remove('selected');
+		if (document.getElementById("relazione-button")) {
+			document.getElementById("relazione").classList.add('hidden');
+			document.getElementById("relazione-button").classList.remove('selected');
+		}
+		if (document.getElementById("condizioni-button")) {
+			document.getElementById("condizioni").classList.add('hidden');
+			document.getElementById("condizioni-button").classList.remove('selected');
+		}
+		if (document.getElementById("racconti-button")) {
+			document.getElementById("racconti").classList.add('hidden');
+			document.getElementById("racconti-button").classList.remove('selected');
+		}
+		if (document.getElementById("foto-button")) {
+			document.getElementById("foto").classList.add('hidden');
+			document.getElementById("foto-button").classList.remove('selected');
+		}
 		document.getElementById(category).classList.remove('hidden');
 		document.getElementById(category +"-button").classList.add('selected');
 	}
