@@ -1,8 +1,8 @@
 <?php
 	$title = "Munt Griatschouls - Da S-Chanf";
-    $track = "04122023.gpx";
-	$day = "04-12-2023, Domenica";
-	$participants = "<img class=\"participant\" title=\"Fabio\" src=\"assets/people/fabio.png\"> <img class=\"participant\" title=\"Fra\" src=\"assets/people/fra.png\"><img class=\"participant\" title=\"Oracolo\" src=\"assets/people/oracolo.png\"> <img class=\"participant\" title=\"Ruben\" src=\"assets/people/ruben.png\"> <img class=\"participant\" title=\"Ste\" src=\"assets/people/ste.png\"> <img class=\"participant\" title=\"Ubaldo\" src=\"assets/people/ubaldo.png\">";
+    $track = "03122023.gpx";
+	$day = "03-12-2023, Domenica";
+	$participants = "<img class=\"person\" src=\"../assets/people/fabio.png\"> Fabio, <img class=\"person\" src=\"../assets/people/fra.png\"> Fra, <img class=\"person\" src=\"../assets/people/oracolo.png\"> Oracolo, <img class=\"person\" src=\"../assets/people/ruben.png\"> Ruben, <img class=\"person\" src=\"../assets/people/ste.png\"> Ste, <img class=\"person\" src=\"../assets/people/ubaldo.png\"> Ubaldo";
 	$path = "../relazioni/15_2_4/muntgriatschouls/";
 ?>
 
@@ -24,8 +24,8 @@
 		include $path . 'descrizione.php';
 		?>
 		
-		<div class="picker-bar">
-			<div class="picker-choice"><div class="picker button sci" id="relazione-button">Relazione</div></div>
+		<div class="picker-bar bordered-sides">
+			<div class="picker-choice"><div class="picker button sci selected" id="relazione-button">Relazione</div></div>
 			<div class="picker-choice"><div class="picker button sci" id="condizioni-button">Condizioni</div></div>
 			<div class="picker-choice"><div class="picker button sci" id="racconti-button">Racconti</div></div>
 			<div class="picker-choice"><div class="picker button sci" id="foto-button">Foto</div></div>
