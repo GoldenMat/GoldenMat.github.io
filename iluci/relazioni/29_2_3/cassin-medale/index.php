@@ -18,7 +18,7 @@
             <th>Quota</th>
             <td>
                 500m la partenza<br>
-                680m (circa) l'attacco della via<br>
+                650m (circa) l'attacco della via<br>
                 950m (circa) l'uscita della via
             </td>
         </tr>

@@ -5,7 +5,7 @@
 <div id="relazione" class="relazione">
 	<h3>Relazione</h3>
 	
-	<table class="info ghiaccio">
+	<table class="info cascata">
 		<tr>
 			<th>Data Uscita</th>
             <td><?php echo $day; ?></td>
