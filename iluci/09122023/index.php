@@ -1,9 +1,9 @@
 <?php
-	$title = "?? - ??";
-    $track = "??.gpx";
-	$day = "??-??-??, ??";
-	$participants = "<img class=\"person\" src=\"../assets/people/??.png\"> ??, <img class=\"person\" src=\"../assets/people/??.png\"> ??";
-	$path = "../relazioni/??_??_??/??/";
+	$title = "Perledo - Falesia dell'Oreste";
+    $track = "09122023.gpx";
+	$day = "09-12-2023, Sabato";
+	$participants = "<img class=\"person\" src=\"../assets/people/oracolo.png\"> Oracolo, <img class=\"person\" src=\"../assets/people/scotty.png\"> Scotty";
+	$path = "../relazioni/29_2_3/falesiaoreste/";
 ?>
 
 <head>
@@ -45,30 +45,29 @@
 				<table class="info falesia">
 					<tr>
 						<th>Meteo e Condizioni</th>
-						<td>??</td>
-					</tr>
-					<tr>
-						<th>Difficoltà Percepita</th>
-						<td>??GradoFrancese (Persona)</td>
+						<td>Giornata serena ma fredda. Quando il sole è sceso si faceva fatica ad arrampicare. La falesia è ripulita ma ancora un po' polverosa visto che comunque non è ancora molto frequentata.</td>
 					</tr>
 					<tr>
 						<th>Giudizio Soggettivo</th>
 						<td>
 							<img class="star" src="../assets/star.png">
-							<img class="star" src="../assets/emptystar.png"> (??Persona)
+							<img class="star" src="../assets/star.png">
+							<img class="star" src="../assets/star.png">
+							<img class="star" src="../assets/emptystar.png">
+							<img class="star" src="../assets/emptystar.png"> (Oracolo)
 						</td>
 					</tr>
 					<tr>
 						<th>Materiale</th>
-						<td>??</td>
+						<td>NDA per falesia (imbrago, scarpette, 12 rinvii). Casco consigliabile soprattutto in presenza di altre cordate.</td>
 					</tr>
 					<tr>
 						<th>Orientamento</th>
-						<td>??</td>
+						<td>Facile, indicato da cartelli fin dal parcheggio.</td>
 					</tr>
 					<tr>
 						<th>Chiodatura</th>
-						<td>??</td>
+						<td>Sistematica a resinati. Soste con moschettone di calata.</td>
 					</tr>
 				</table>
 			</div>
@@ -80,12 +79,12 @@
 				<div class="story left">
 				
 					<div class="profile-block">
-						<img class="profile" src="../assets/people/??persona.png">
-						<br>??Persona
+						<img class="profile" src="../assets/people/oracolo.png">
+						<br>Oracolo
 					</div>
 					
 					<div class="story-block falesia">
-						??Racconto
+						Partenza tardi causa serata a Milano la sera prima, prendo Scotty e andiamo a Perledo, gli altri paccano tutti. Saliamo con calma fino alla falesia, il meteo non sarà bellissimo ma inizialmente il sole si scalda. Faremo Valentina (5a), Riccardo (5a+) e Il Ghiro (5a+): i tiri non son da sottovalutare nonostante i gradi, ma comunque sono chiodati molto bene. Ci sono altre vie sulla destra però più dure e lasciamo perdere, visto che inizia a fare anche parecchio freddo quando andremo via.
 					</div>
 				</div>
 			</div>
@@ -94,7 +93,7 @@
 			<div id="foto" class="foto hidden">
 				<h3>Foto</h3>
 				
-				<a href="??link" target="_blank" rel="noopener noreferrer">
+				<a href="https://photos.app.goo.gl/ctLFHa7PMJKMgpzT6" target="_blank" rel="noopener noreferrer">
 					<img src="../assets/googlephotos.png">
 					<p>Google Photos Album</p>
 				</a>
