@@ -1,9 +1,9 @@
 <?php
-	$title = "Grignetta - Cresta Cermenati";
-    $track = "06122023.gpx";
-	$day = "06-12-2023, Mercoledì";
+	$title = "Grignetta - Sentiero delle Capre";
+    $track = "22112023.gpx";
+	$day = "22-11-2023, Mercoledì";
 	$participants = "<img class=\"person\" src=\"../assets/people/oracolo.png\"> Oracolo";
-	$path = "../relazioni/29_2_3/crestacermenati/";
+	$path = "../relazioni/29_2_3/sentierodellecapre/";
 ?>
 
 <head>
@@ -45,7 +45,7 @@
 				<table class="info escursionismo">
 					<tr>
 						<th>Meteo e Condizioni</th>
-						<td>Mattinata fresca ma serena, senza vento. Non c'è molta neve ma quella che c'è è solida.</td>
+						<td>Mattinata fredda, con un po' di vento in cima. Poco niente di neve, i sentieri sono nelle solite condizoni.</td>
 					</tr>
 					<tr>
 						<th>Giudizio Soggettivo</th>
@@ -59,7 +59,7 @@
 					</tr>
 					<tr>
 						<th>Orientamento</th>
-						<td>Facile, la salita è tracciata e ai bivi ci sono sempre i cartelli che evitano errori.</td>
+						<td>Non immediato trovare il bivio del sentiero delle Capre, ma se non si sbaglia quello si va tranquilli. Discesa intuitiva, ai bivi ci sono sempre i cartelli che evitano errori.</td>
 					</tr>
 				</table>
 			</div>
@@ -76,7 +76,7 @@
 					</div>
 					
 					<div class="story-block escursionismo">
-						Giro mattutino in Cermenati. Freschino ma bell'alba. Discesa a buon ritmo ma arriverò alla macchina alle 9, quindi al lavoro un po' in ritardo ma senza ripercussioni.
+						Grignetta pre lavoro, stavolta in scarpe d'avvicinamento, nottata fresca ma accettabile, dava un po' di vento in cima ma non ha fatto niente di che. Alla fine della Cermenati dove mi stacco sulla destra per fare lo spigolo, freddo alle mani ma sto un po' sul facile, così da non tribulare troppo. In cima becco il Graziano con dei suoi amici, con cui scambio due balle, poi arriva anche la Fra Mazzocchi, che non vedevo da un po'. Discesa relax in Cermenati, con un po' di freddo alle mani zona cima, ma niente di eccessivo.
 					</div>
 				</div>
 			</div>
@@ -85,7 +85,7 @@
 			<div id="foto" class="foto hidden">
 				<h3>Foto</h3>
 				
-				<a href="https://photos.app.goo.gl/XSnKPiq2UuyGYKh36" target="_blank" rel="noopener noreferrer">
+				<a href="https://photos.app.goo.gl/UDkErazFC1TcibgP7" target="_blank" rel="noopener noreferrer">
 					<img src="../assets/googlephotos.png">
 					<p>Google Photos Album</p>
 				</a>

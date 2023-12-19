@@ -1,9 +1,9 @@
 <?php
-	$title = "Grignetta - Cresta Cermenati";
-    $track = "06122023.gpx";
-	$day = "06-12-2023, Mercoledì";
+	$title = "Grignetta - Sentiero delle Capre";
+    $track = "25102023.gpx";
+	$day = "25-10-2023, Mercoledì";
 	$participants = "<img class=\"person\" src=\"../assets/people/oracolo.png\"> Oracolo";
-	$path = "../relazioni/29_2_3/crestacermenati/";
+	$path = "../relazioni/29_2_3/sentierodellecapre/";
 ?>
 
 <head>
@@ -45,7 +45,7 @@
 				<table class="info escursionismo">
 					<tr>
 						<th>Meteo e Condizioni</th>
-						<td>Mattinata fresca ma serena, senza vento. Non c'è molta neve ma quella che c'è è solida.</td>
+						<td>Serata nebbiosa e con un po' di vento, ancora non c'è neve, i sentieri son nelle solite condizioni.</td>
 					</tr>
 					<tr>
 						<th>Giudizio Soggettivo</th>
@@ -59,7 +59,7 @@
 					</tr>
 					<tr>
 						<th>Orientamento</th>
-						<td>Facile, la salita è tracciata e ai bivi ci sono sempre i cartelli che evitano errori.</td>
+						<td>Non immediato trovare il bivio del sentiero delle Capre, ma se non si sbaglia quello si va tranquilli. Discesa intuitiva, ai bivi ci sono sempre i cartelli che evitano errori.</td>
 					</tr>
 				</table>
 			</div>
@@ -76,7 +76,7 @@
 					</div>
 					
 					<div class="story-block escursionismo">
-						Giro mattutino in Cermenati. Freschino ma bell'alba. Discesa a buon ritmo ma arriverò alla macchina alle 9, quindi al lavoro un po' in ritardo ma senza ripercussioni.
+						Ultima Grignetta post lavoro prima che cambi l'ora: salgo rapido dalle Capre tra nebbia e venticello, ma con dei bei scorci, incrociando alcune persone che scendono e facendo lo spigolo "Caruso" sull'ultimo tratto, anche se ancora non so bene dove va. Arrivo in cima e mi cambio, visto che fa un po' freddo, ci son dei ragazzi nel bivacco ma non penso si accorgano neanche che ci fossi. Scendo dalla Sinigaglia e poi giù lato Est Magnaghi al buio fino a incrociare il traverso, che seguo fino in Cermenati, "salutando" due tizi che stavano arrivando dal Porta (boh, roba strana a quell'ora). Scendendo in Cermenati alla catena qualcuno da Ballabio mi illumina con un laser verde (sì, era diretto proprio verso di me, probabilmente ha visto la frontale): all'inizio mi cago anche un po' adosso, ma poi non lo rifa più, sarà stato un ragazzino.
 					</div>
 				</div>
 			</div>
@@ -85,7 +85,7 @@
 			<div id="foto" class="foto hidden">
 				<h3>Foto</h3>
 				
-				<a href="https://photos.app.goo.gl/XSnKPiq2UuyGYKh36" target="_blank" rel="noopener noreferrer">
+				<a href="https://photos.app.goo.gl/NHT8ZgXstDmYgf727" target="_blank" rel="noopener noreferrer">
 					<img src="../assets/googlephotos.png">
 					<p>Google Photos Album</p>
 				</a>
