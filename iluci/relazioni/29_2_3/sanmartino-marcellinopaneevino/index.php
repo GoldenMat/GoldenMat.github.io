@@ -19,7 +19,7 @@
 			<td>
 				380m la partenza<br>
 				470m (circa) l'attacco della via<br>
-				520m (circa) l'uscita delle via
+				520m (circa) l'uscita della via
 			</td>
 		</tr>
 		<tr>
